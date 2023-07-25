@@ -1,0 +1,1539 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 25, 2023 09:38:20 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@ticket</a><a class="dropdown-item" href="#">@Reports</a><a class="dropdown-item" href="#">@customer</a><a class="dropdown-item" href="#">@Login</a><a class="dropdown-item" href="#">@Settings</a><a class="dropdown-item" href="#">@KB</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login</p>
+            <p class="text-sm">
+              <span>9:38:21 am</span> / <span>00:00:00:879</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login</h5>
+<span class='badge badge-success'>07.25.2023 9:38:21 am</span>
+<span class='badge badge-danger'>07.25.2023 9:38:22 am</span>
+<span class='badge badge-default'>00:00:00:879</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Successful Login with Valid Credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Successful Login with Valid Credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User open url "http://192.168.53.25/helpdesk_beta/login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter the email "admin@cbiuae.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enter the password "cbiuae"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Login button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Successful Login with Valid Credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User open url "http://192.168.53.25/helpdesk_beta/login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter the email "user1@example.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enter the password "cbiuae123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Login button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Successful Login with Valid Credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User open url "http://192.168.53.25/helpdesk_beta/login"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enter the email "admin@cbiuae.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enter the password "cbiuae123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Click on Login button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Successful Add a Customer details</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_click_on_the_customer()">
+                <span>When I click on the customer</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_add_the_customer()">
+                <span>Then I have to add the customer</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_the_customer_name()">
+                <span>And I have to text the customer name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_the_mobile_number()">
+                <span>And I have to text the mobile number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_apply_button()">
+                <span>Then I have to click on apply button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>Successfull ticket created</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_click_on_ticket()">
+                <span>When I should click on ticket</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_click_on_create_ticket()">
+                <span>Then I should click on Create ticket</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_text_on_mobile_number()">
+                <span>Then I should text on mobile number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_click_on_search()">
+                <span>And I should click on search</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_radio_button()">
+                <span>And I should select the radio button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_channel()">
+                <span>When I should select the channel</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_case_type()">
+                <span>Then I should select the case type</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_complaint_category()">
+                <span>When I should select the complaint category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_complaint()">
+                <span>Then I should select the complaint</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_user()">
+                <span>Then I should select the user</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_create_the_ticket()">
+                <span>Then I should create the ticket</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="69"><span class="badge log pass-bg mr-2">Pass</span>Add filters Ticket</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_click_on_the_button(java.lang.String)">
+                <span>When I click on the "Ticket" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_click_on_button(java.lang.String)">
+                <span>And I click on "Filters" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.user_selects_the_from_date_as(java.lang.String)">
+                <span>When User selects the from date as "01-06-2023"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.user_selects_the_to_date_as(java.lang.String)">
+                <span>And User selects the to date as "2023-06-19"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_select_the(java.lang.String)">
+                <span>Then I select the "Damas"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_select_the_department(java.lang.String)">
+                <span>And I select the department "Call center"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_select_the_agent(java.lang.String)">
+                <span>And I select the Agent "sunil@damas.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_select_the_agent_name(java.lang.String)">
+                <span>Then I select the Agent name "shruthi@damas.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_click_on_apply_button()">
+                <span>Then I click on Apply button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>Add Ticket Reports</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_button(java.lang.String)">
+                <span>Given I have to click "Reports" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_reports_button(java.lang.String)">
+                <span>When I have to Click Reports "Ticket reports" button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_button(java.lang.String)">
+                <span>When I had to click "filters" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_the(java.lang.String)">
+                <span>Then I have to select the "This month"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click(java.lang.String)">
+                <span>Then I have to click "Apply"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="101"><span class="badge log pass-bg mr-2">Pass</span>Add Audit Reports</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_reports_button1(java.lang.String)">
+                <span>Given I have to click Reports button "Reports"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_call_audit_reports()">
+                <span>When I had to click call Audit reports</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_the_click_filters_button(java.lang.String)">
+                <span>When I had the click filters button "filters"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_select_weak(java.lang.String)">
+                <span>Then I had to select weak "This week"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_apply_button()">
+                <span>Then I had to click apply button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="113"><span class="badge log pass-bg mr-2">Pass</span>Add Complaint Reports</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_go_to_click_reports()">
+                <span>Given I go to click reports</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_go_to_click_complaint_reports()">
+                <span>When I go to click complaint reports</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="119"><span class="badge log pass-bg mr-2">Pass</span>Add Agent work balance Reports</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_went_to_click_reports()">
+                <span>Given I went to click reports</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_went_to_click_agent_work_balance()">
+                <span>When I went to click Agent work balance</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="125"><span class="badge log pass-bg mr-2">Pass</span>Add Department work balance Reports</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_dept(java.lang.String)">
+                <span>Given I have to click dept "report"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_department_work_balance()">
+                <span>When I have to click department work balance</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="131"><span class="badge log pass-bg mr-2">Pass</span>filters KB</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_kb(java.lang.String)">
+                <span>Given I have to click "KB" kb</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_knowledge_base()">
+                <span>When I have to click Knowledge base</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_choose_category()">
+                <span>When I have to choose category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_the_category(java.lang.String)">
+                <span>Then I have to select the category "Today offers"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_choose_group()">
+                <span>Then I have to choose group</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_group(java.lang.String)">
+                <span>Then I have to select group "Drama"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="145"><span class="badge log pass-bg mr-2">Pass</span>Add KB</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_knowledge(java.lang.String)">
+                <span>Given I have to click Knowledge "KB"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_create_kb()">
+                <span>When I have to click create KB</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_kb_create()">
+                <span>When I have to click KB create</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_on_title()">
+                <span>Then I have to text on title</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_category1()">
+                <span>And I have to select category1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_today_offers_category()">
+                <span>Then I have to select Today offers category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_group1()">
+                <span>And I have to select group1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_drama_group()">
+                <span>Then I have to select Drama group</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_the_describe(java.lang.String)">
+                <span>And I have to text the describe "This is KB"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_the_button_create()">
+                <span>Then I have to click the button create</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="167"><span class="badge log pass-bg mr-2">Pass</span>Sittings master category</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_sitting_master()">
+                <span>Given I have to click on sitting master</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_the_category()">
+                <span>When I have to click the category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_create_category_kb()">
+                <span>Then I have to click on create category KB</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_give_the_category_name()">
+                <span>When I have to give the category name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_create()">
+                <span>Then I have to click on create</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="179"><span class="badge log pass-bg mr-2">Pass</span>Sittings master group</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_on_sitting()">
+                <span>Given I had to click on sitting</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_on_group()">
+                <span>When I had to click on group</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_on_create_group()">
+                <span>Then I had to click on create group</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_select_the_group_category()">
+                <span>And I had to select the group category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_gave_the_group_name()">
+                <span>When I had to gave the group name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_on_add_create_button()">
+                <span>Then I had to click on add create button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="193"><span class="badge log pass-bg mr-2">Pass</span>Add one role</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_click_the_sittings()">
+                <span>Given I should click the sittings</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_role()">
+                <span>Then I should select the role</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_click_on_create_role()">
+                <span>Then I should click on create role</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_text_on_role_name()">
+                <span>Then I should text on role name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_customer_radio_button()">
+                <span>Then I should select the customer radio button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_select_the_ticket_radio_button()">
+                <span>Then I should select the ticket radio button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_should_click_the_create_button()">
+                <span>Then I should click the create button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="209"><span class="badge log pass-bg mr-2">Pass</span>Sittings master Facility</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_had_to_click_sitting_masters()">
+                <span>Given I had to click sitting masters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_facility()">
+                <span>When I have to click on Facility</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_create_on_facility()">
+                <span>Then I have to create on facility</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_on_facility_name(java.lang.String)">
+                <span>And I have to text on facility name "test"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_click_on_apply()">
+                <span>Then I have click on apply</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="221"><span class="badge log pass-bg mr-2">Pass</span>Sittings master dep</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_sittings()">
+                <span>Given I have to click sittings</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_department()">
+                <span>When I have to click on department</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_the_create_department()">
+                <span>Then I have to click the create department</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_the_facitity()">
+                <span>Then I have to select the facitity</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_on_dep_name(java.lang.String)">
+                <span>And I have to text on dep name "damas"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_on_dep_label_test()">
+                <span>And I have to text on dep label"test"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_the_create_button()">
+                <span>Then I have to click the create button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="237"><span class="badge log pass-bg mr-2">Pass</span>Sittings master call reason</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_sit_mast()">
+                <span>Given I have to click sit mast</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_call_reason()">
+                <span>When I have to click on call reason</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_create_call_reason()">
+                <span>Then I have to click on create call reason</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_call_reason(java.lang.String)">
+                <span>And I have to text call reason "Enquary"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_an_create()">
+                <span>Then I have to click an create</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="249"><span class="badge log pass-bg mr-2">Pass</span>Sittings master complaint</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_sit_master()">
+                <span>Given I have to click sit master</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_click_on_complaint_button()">
+                <span>When I click on complaint button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_on_new_complaint_button()">
+                <span>Then I have to click on new complaint button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_the_category()">
+                <span>Then I have to select the category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_the_complaint_name()">
+                <span>Then I have to text the complaint name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_on_complaint_number()">
+                <span>Then I have to text on complaint number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_the_priority()">
+                <span>And I have to select the priority</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_the_facility()">
+                <span>And I have to select the facility</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_select_the_department()">
+                <span>And I have to select the department</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_the_create_btn()">
+                <span>Then I have to click the create btn</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="271"><span class="badge log pass-bg mr-2">Pass</span>Sittings master category</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_sitting_mast()">
+                <span>Given I have to click sitting mast</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_an_category_button()">
+                <span>When I have to click an category button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_the_create_category_complaint_name()">
+                <span>Then I have to click the create category complaint name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_text_on_category_name()">
+                <span>Then I have to text on category name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinations.Stepdefination.i_have_to_click_cat_apply()">
+                <span>Then I have to click cat apply</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@ticket</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ticket</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>Successfull ticket created</a>
+<div class="">
+<span class="badge badge-default">Login.Successfull ticket created</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='69'>Add filters Ticket</a>
+<div class="">
+<span class="badge badge-default">Login.Add filters Ticket</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">@Reports</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Reports</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='89'>Add Ticket Reports</a>
+<div class="">
+<span class="badge badge-default">Login.Add Ticket Reports</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='101'>Add Audit Reports</a>
+<div class="">
+<span class="badge badge-default">Login.Add Audit Reports</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='113'>Add Complaint Reports</a>
+<div class="">
+<span class="badge badge-default">Login.Add Complaint Reports</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='119'>Add Agent work balance Reports</a>
+<div class="">
+<span class="badge badge-default">Login.Add Agent work balance Reports</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='125'>Add Department work balance Reports</a>
+<div class="">
+<span class="badge badge-default">Login.Add Department work balance Reports</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@customer</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@customer</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>Successful Add a Customer details</a>
+<div class="">
+<span class="badge badge-default">Login.Successful Add a Customer details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@Login</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Login</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:21 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Successful Login with Valid Credentials</a>
+<div class="">
+<span class="badge badge-default">Login.Successful Login with Valid Credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:21 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Successful Login with Valid Credentials</a>
+<div class="">
+<span class="badge badge-default">Login.Successful Login with Valid Credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>Successful Login with Valid Credentials</a>
+<div class="">
+<span class="badge badge-default">Login.Successful Login with Valid Credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>Successful Login with Valid Credentials</a>
+<div class="">
+<span class="badge badge-default">Login.Successful Login with Valid Credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+</span>
+<p class="name">@Settings</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Settings</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='167'>Sittings master category</a>
+<div class="">
+<span class="badge badge-default">Login.Sittings master category</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='179'>Sittings master group</a>
+<div class="">
+<span class="badge badge-default">Login.Sittings master group</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='193'>Add one role</a>
+<div class="">
+<span class="badge badge-default">Login.Add one role</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='209'>Sittings master Facility</a>
+<div class="">
+<span class="badge badge-default">Login.Sittings master Facility</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='221'>Sittings master dep</a>
+<div class="">
+<span class="badge badge-default">Login.Sittings master dep</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='237'>Sittings master call reason</a>
+<div class="">
+<span class="badge badge-default">Login.Sittings master call reason</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='249'>Sittings master complaint</a>
+<div class="">
+<span class="badge badge-default">Login.Sittings master complaint</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='271'>Sittings master category</a>
+<div class="">
+<span class="badge badge-default">Login.Sittings master category</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@KB</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@KB</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='131'>filters KB</a>
+<div class="">
+<span class="badge badge-default">Login.filters KB</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>09:38:22 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='145'>Add KB</a>
+<div class="">
+<span class="badge badge-default">Login.Add KB</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 25, 2023 09:38:20 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 25, 2023 09:38:22 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>21</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>119</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login":0.879
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@ticket</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Reports</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@customer</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Login</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Settings</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@KB</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 21,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 119,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
