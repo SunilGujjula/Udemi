@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
     features = "src/test/java/features", 
     glue = "Stepdefinations",
     tags = "@Login or @customer or @ticket or @Reports or @KB or @Settings",
-    dryRun=true,
+    dryRun= true,
     monochrome = true,
     plugin = {"pretty","html:target/cucumber.html","json:target/cucumber.json",
     		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

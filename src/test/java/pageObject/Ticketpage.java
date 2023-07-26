@@ -218,14 +218,6 @@ public class Ticketpage {
 	public void btnclickapply() {
 		// TODO Auto-generated method stub
 		btnclickapply.click();
-	}
-
-	
-
-	
-
-	
-
-	
+	}	
 
 }
